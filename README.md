@@ -1,55 +1,41 @@
-# LH_CD_TAIANEDEASSIS
-Repositório criado para entrega do Lighthouse - Desafio Ciência de Dados 2024-4
+# README - Projeto de Previsão de Preços de Aluguéis da cidade de Nova York
 
+Este projeto implementa modelos de machine learning para prever os preços de aluguéis de imóveis na cidade de Nova York.
 
-# README - Projeto de Previsão de Preços de Aluguéis
+## Instalação e Execução do Projeto
 
-Este projeto implementa modelos de machine learning para prever os preços de aluguéis de imóveis do Airbnb com base em suas características.
+1. **Requisitos do Sistema**:
+   - Python 3.x
+   - Jupyter Notebook ou Google Colab (para executar o código fornecido)
 
-## Requisitos
+2. **Clonar o Repositório**:
+   - Clone este repositório para o seu ambiente local:
+     ```
+     git clone https://github.com/seu-usuario/nome-do-repositorio.git
+     ```
+   - Ou baixe o arquivo ZIP e extraia-o em seu computador.
 
-Antes de começar, certifique-se de ter instalado os seguintes componentes:
+3. **Instalar Dependências**:
+   - Abra o Jupyter Notebook ou Google Colab.
+   - Execute o código fornecido no notebook para treinar os modelos.
 
-- Python (versão 3.x recomendada)
-- Bibliotecas Python: pandas, scikit-learn, tensorflow, keras
+## Arquivos de Requisitos
 
-## Instalação
+- O arquivo de requisitos `requirements.txt` contém os pacotes Python necessários para executar o projeto.
 
-1. Clone este repositório para o seu ambiente local:
+## Pacotes Utilizados e Versões
 
-```
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
-```
+- numpy==1.19.5
+- pandas==1.3.3
+- scikit-learn==0.24.2
+- tensorflow==2.6.0
+- keras==2.6.0
+- joblib==1.0.1
 
-2. Navegue até o diretório do projeto:
+## Arquivo .pkl
 
-```
-cd nome-do-repositorio
-```
+O arquivo .pkl contendo o modelo treinado foi salvo dentro do notebook.
 
-3. Instale as dependências necessárias usando pip:
-
-```
-pip install -r requirements.txt
-```
-
-## Executando o Projeto
-
-1. Certifique-se de que os dados do Airbnb estão disponíveis no arquivo CSV `dados_airbnb.csv`.
-
-2. Execute o script principal para treinar e avaliar os modelos:
-
-```
-python main.py
-```
-
-3. Após a execução, os modelos serão treinados e avaliados, e as métricas de desempenho serão exibidas no console.
-
-## Arquivos e Diretórios
-
-- `main.py`: Script principal para treinar e avaliar os modelos.
-- `dados_airbnb.csv`: Arquivo CSV contendo os dados do Airbnb.
-- `modelos/`: Diretório contendo os modelos treinados salvos.
 
 ## Contribuição
 
