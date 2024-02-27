@@ -63,7 +63,7 @@ Se você deseja contribuir para este projeto, siga estas etapas:
 
 ## Autores
 
-- Taiane C. B. de Assis - [Seu GitHub](https://github.com/taianecbassis)
+- Taiane C. B. de Assis - [GitHub](https://github.com/taianecbassis)
 
 ## Licença
 
