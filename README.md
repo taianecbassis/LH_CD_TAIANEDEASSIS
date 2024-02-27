@@ -34,18 +34,43 @@ Este projeto implementa modelos de machine learning para prever os preços de al
 
 ## Arquivo .pkl
 
-O arquivo .pkl contendo o modelo treinado foi salvo dentro do notebook.
+* Como Usar e Implementar um Modelo Salvo em um Arquivo .pkl
 
+Este guia explica como usar e implementar um modelo de machine learning salvo em um arquivo .pkl (pickle) em Python.
 
-## Contribuição
+* Passos para Implementação
 
-Se você deseja contribuir para este projeto, siga estas etapas:
+1. Carregar o Modelo Salvo:
 
-1. Fork este repositório.
-2. Crie um branch para sua feature (`git checkout -b feature/sua-feature`).
-3. Faça commit de suas mudanças (`git commit -am 'Adicionando nova feature'`).
-4. Faça push para o branch (`git push origin feature/sua-feature`).
-5. Crie um novo Pull Request.
+Para começar, o usuário precisa carregar o modelo salvo a partir do arquivo .pkl. Isso pode ser feito usando a função `joblib.load()` da biblioteca joblib ou a função `pickle.load()` da biblioteca pickle, dependendo de como o modelo foi salvo.
+
+```python
+import joblib
+
+# Carregar o modelo salvo
+modelo_carregado = joblib.load('caminho/do/arquivo/modelo.pkl')
+
+2. Preparar os Dados de Entrada:
+O usuário deve preparar os dados de entrada de acordo com as características esperadas pelo modelo. Isso pode envolver pré-processamento de dados, transformações e formatação adequada dos dados.
+
+3. Fazer Previsões:
+Com o modelo carregado e os dados de entrada preparados, o usuário pode fazer previsões usando o modelo. Isso é feito chamando o método predict() do modelo carregado.
+
+# Prever com o modelo carregado
+previsoes = modelo_carregado.predict(dados_de_entrada)
+
+4. Exemplo de implementação
+import joblib
+
+# Carregar o modelo salvo
+modelo_carregado = joblib.load('caminho/do/arquivo/modelo.pkl')
+
+# Preparar os dados de entrada
+dados_de_entrada = ...
+
+# Fazer previsões
+previsoes = modelo_carregado.predict(dados_de_entrada)
+
 
 ## Autores
 
