@@ -2,6 +2,14 @@
 
 Este projeto implementa modelos de machine learning para prever os preços de aluguéis de imóveis na cidade de Nova York.
 
+## Autores
+
+- Taiane C. B. de Assis - [GitHub](https://github.com/taianecbassis)
+
+## Licença
+
+Este projeto é licenciado sob a [MIT License](LICENSE).
+
 ## Instalação e Execução do Projeto
 
 1. **Requisitos do Sistema**:
@@ -72,10 +80,3 @@ dados_de_entrada = ...
 previsoes = modelo_carregado.predict(dados_de_entrada)
 
 
-## Autores
-
-- Taiane C. B. de Assis - [GitHub](https://github.com/taianecbassis)
-
-## Licença
-
-Este projeto é licenciado sob a [MIT License](LICENSE).
